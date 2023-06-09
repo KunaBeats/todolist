@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Variablen */
+
+:root {
+    --main-color: #780000;
+    --second-color: #c1121f;
+    --writing-color: #fdf0d5;
+    --blue: #003049;
+    --light-blue: #669bbc;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Cardo', serif;
+    background-color: var(--second-color);
+}
+
+header {
+    background-color: var(--main-color);
+    color: var(--writing-color);
+    height: 100px;
+    width: 100vw;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive; 
+    -webkit-box-shadow: 4px 0px 8px 4px #780000; 
+    box-shadow: 4px 0px 8px 4px #780000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.input-container {
+    color:#003049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 32px;
+    width: 200px;
+    background-color: #fdf0d5;
+    color: #003049;
+    border: none;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+.main-buttons {
+    height: 32px;
+    border: none;
+    margin-left: 12px;
+    background-color: #fdf0d5;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.note-container {
+    margin-top: 32px;
+}
+
+.note {
+    font-family: 'Indie Flower', cursive; 
+    font-size: 1.25rem;
+    height: 48px;
+    width: 320px;
+    background-color: #fdf0d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.handle-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.checkbox {
+    width: 40px;
+    height: 30px;
+}
+
+.delete-btn {
+    width: 32px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #669bbc;
+    border: none;
+    border-radius: 2px;
+}
+
+.delete-icon {
+    width: 15px;
+}
